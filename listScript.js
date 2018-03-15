@@ -1,10 +1,10 @@
-//Create new item upon pressing "Enter" keys
+//Create new item upon hitting "Enter"
 document.body.onkeyup = function(e){
 	if(e.keyCode == 13){
 		newItem();
 	}
 }
-//Create a "close" button and append it to each list item
+//Create a close button and append it to each list item
 var closeBtn = document.getElementsByTagName('LI');
 var i; 
 for( i = 0; i < closeBtn.length; i++){
